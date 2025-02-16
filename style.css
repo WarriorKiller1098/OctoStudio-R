@@ -1,0 +1,41 @@
+.uiframe {
+  overflow: hidden;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: indigo;
+  padding: 20px 30px;
+}
+
+.button {
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif; /* Or another sans-serif font */
+  font-weight: 700; /* Or bold/900 */
+  background-color: slateblue;
+  border-radius: 19px;
+  border: slateblue;
+  padding: 13px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.button:active {
+  background-color: darkslateblue;
+}
+
+
+
+.title {
+  color: white;
+  font-weight: bold;
+}
+
+.tutorial {
+  border-radius: 9px;
+}
+
+.top {
+  right: 0; left: 0; top: 0;
+  padding: 20px 30px;
+  background-color: darkslateblue
+}
